@@ -1,0 +1,14 @@
+.sport__logo {
+  font-family: Lobster;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+.sport__logo::before {
+  content: " ";
+  background-image: url("/source-materials/imagery/logo_sports_colour.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  display: block;
+}

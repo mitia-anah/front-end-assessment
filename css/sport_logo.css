@@ -1,15 +1,29 @@
 @media (min-width : 368px) {
+  .sport__logo {
+
+  }
   .sport__logo--title {
-    display: none;
+    visibility: hidden;
+    position: relative;
   }
 
   .sport__logo--title-colour {
     display: block;
-    font-size: 50%;
+    width: 178px;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    margin-bottom: 50px;
   }
 
   .bg-header {
-    display: flex;
-    justify-self: right;
+   display: none;
+  }
+}
+
+@media (min-width : 768px) {
+  .bg-header {
+    display: block;
+
   }
 }

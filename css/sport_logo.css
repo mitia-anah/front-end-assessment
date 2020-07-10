@@ -1,4 +1,15 @@
-.sport__logo--title {
-  display: none;
-}
+@media (min-width : 368px) {
+  .sport__logo--title {
+    display: none;
+  }
 
+  .sport__logo--title-colour {
+    display: block;
+    font-size: 50%;
+  }
+
+  .bg-header {
+    display: flex;
+    justify-self: right;
+  }
+}

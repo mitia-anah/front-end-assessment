@@ -1,3 +1,5 @@
-body {
-  background: #F4F6F9;
+@media (min-width : 368px) {
+  body {
+    background: #F4F6F9;
+  }
 }

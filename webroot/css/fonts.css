@@ -1,5 +1,11 @@
+@media (min-width : 368px) {
 @font-face {
-  font-family: "Lato", sans-serif;
-  src: url("/fonts/Lato-Regular-lato-black.woff2") format("woff2"),
-       url("/fonts/Lato-bold-lato-black.woff") format("woff");
+  font-family: "Lato";
+  src: url("/webroot/fonts/AnyConv.com__Lato-Bold.woff") format("woff")
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("/webroot/fonts/AnyConv.com__Lato-Regular.woff2") format("woff2");
+}
 }

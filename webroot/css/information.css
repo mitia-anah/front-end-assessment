@@ -1,22 +1,18 @@
 @media (min-width : 368px) {
 
   .information {
-    position: relative;
-    left: 19px;
-    top: 50px
 
   }
 
   .info__title--before {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     font-weight: 700;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: 0.03em;
     color: #333333;
+    text-align: center;
   }
 
   .info__title--demand {
@@ -24,6 +20,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;
-    color: #4F4F4f
+    color: #4F4F4f;
+    text-align: center;
   }
 }

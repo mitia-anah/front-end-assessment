@@ -1,19 +1,13 @@
 @media (min-width : 368px) {
-  .sport__logo {
-
-  }
   .sport__logo--title {
-    visibility: hidden;
-    position: relative;
+   display: none;
   }
 
   .sport__logo--title-colour {
     display: block;
-    width: 178px;
-    position: absolute;
-    top: 30px;
-    left: 90px;
-    margin-bottom: 50px;
+    max-width: 100%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
   }
 
   .bg-header {
@@ -21,9 +15,9 @@
   }
 }
 
-@media (min-width : 768px) {
+@media (min-width : 740px) {
   .bg-header {
-    display: block;
-
+    display: flex;
+    float: right;
   }
 }

@@ -17,7 +17,6 @@
 
 @media (min-width : 740px) {
   .bg-header {
-    display: flex;
-    float: right;
+    ;
   }
 }

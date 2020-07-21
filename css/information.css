@@ -1,3 +1,4 @@
+@media (min-width: 440px) {
   .information {
 
   }
@@ -21,5 +22,32 @@
     color: #4F4F4f;
     text-align: center;
   }
+}
 
+@media (min-width: 780px) {
+  .info__title--before,
+  .info__title--demand {
+    max-width: 50%;
+  }
+
+  .info__title--before {
+    font-family: "Lato";
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: #333333;
+    text-align: center;
+  }
+
+  .info__title--demand {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #4F4F4f;
+    text-align: center;
+  }
+}
 

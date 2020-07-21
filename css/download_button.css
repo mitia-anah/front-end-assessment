@@ -1,12 +1,12 @@
-@media (min-width : 368px) {
+
   .button__title {
       display: none;
     }
 
-    .download__button {
+  .download__button--app{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    padding-inline-end: 1rem;
-    }
-}
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 

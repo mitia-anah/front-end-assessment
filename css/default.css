@@ -1,7 +1,14 @@
-@media (min-width : 368px) {
   body {
     background: #F4F6F9;
+    padding-inline-start: auto;
+    padding-inline-end: auto;
   }
 
-
+  .sport__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+
+

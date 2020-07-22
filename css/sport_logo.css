@@ -1,4 +1,4 @@
-@media (min-width: 440px) {
+@media (min-width: 368px) {
   picture {
     display: none;
   }
@@ -10,18 +10,18 @@
 }
 
 @media (min-width : 740px) {
-  picture {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  }
+body {
+  content: " ";
+  background-image: url("../img/bg_header-1.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 100% 0%;
+
+}
 
   h1 {
     margin-inline-start: 0;
     margin-inline-end: 0;
-    padding-inline-start: 10rem;
-
   }
 
 }

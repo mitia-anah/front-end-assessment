@@ -1,14 +1,16 @@
-  body {
+
+ body {
     background: #F4F6F9;
-    padding-inline-start: auto;
-    padding-inline-end: auto;
+    margin: 0;
+    padding-inline-start: 50px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
   }
 
-  .sport__logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+  ul > li {
+    list-style: none;
+  }
 
-
+  img {
+    max-width: 100%;
+  }
 

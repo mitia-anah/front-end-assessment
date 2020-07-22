@@ -1,4 +1,4 @@
-@media (min-width: 440px) {
+@media (min-width: 368px) {
   .information {
 
   }
@@ -11,7 +11,7 @@
     line-height: 48px;
     letter-spacing: 0.03em;
     color: #333333;
-    text-align: center;
+    text-align: start
   }
 
   .info__title--demand {
@@ -21,14 +21,15 @@
     line-height: 33px;
     color: #4F4F4f;
     text-align: center;
+    padding-inline-end: 3rem;
   }
 }
 
 @media (min-width: 780px) {
   .info__title--before,
   .info__title--demand {
-    max-width: 38%;
-    padding: 0;
+     max-width: 40%;
+     padding-inline-start: 0;
   }
 
   .info__title--before {
@@ -39,8 +40,7 @@
     line-height: 48px;
     letter-spacing: 0.03em;
     color: #333333;
-    text-align: center;
-  }
+    }
 
   .info__title--demand {
     font-family: "Lato", sans-serif;

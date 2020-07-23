@@ -74,7 +74,7 @@ Bonus points will be awarded for code that uses:
 - going the extra mile (putting in more effort to push for high quality or delight)
 
 ## Install node-sass
-* npm i
+* Use npm i to install node-sass
 
 ## Run css
 

@@ -1,12 +1,12 @@
+@import "fonts";
 @media (min-width: 368px) {
   .information {
 
   }
 
   .info__title--before {
-    font-family: "Lato";
+    font-family: "myLato";
     font-weight: 700;
-    font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: 0.03em;
@@ -15,7 +15,7 @@
   }
 
   .info__title--demand {
-    font-family: "Lato", sans-serif;
+    font-family: "myLato", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;

@@ -3,13 +3,14 @@
   font-style: normal;
   font-weight: 700;
   src: local("lato bold"), local("lato-bold");
-  src: url(/webroot/fonts/AnyConv.com__Lato-Bold.woff2), url(/webroot/fonts/AnyConv.com__Lato-Bold.woff2); }
+  src: url(/webroot/fonts/AnyConv.com__Lato-Bold.woff2), url(/webroot/fonts/AnyConv.com__Lato-Bold.woff); }
 
-body {
-  background: #F4F6F9;
-  margin: 0;
-  padding-inline-start: 50px;
-  font-family: "Lato", Arial, Helvetica, sans-serif; }
+@font-face {
+  font-family: "myLato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("lato regular"), local("lato-regular");
+  src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2), url(/webroot/fonts/AnyConv.com__Lato-Regular.woff); }
 
 h1 {
   margin-inline-start: auto;
@@ -25,6 +26,10 @@ img {
 div {
   max-width: 550px; }
 
+body {
+  margin: 0;
+  background-color: #F4F6F9; }
+
 @media (min-width: 368px) {
   .sport_logo {
     padding-block-start: 30px;
@@ -39,18 +44,31 @@ div {
   .sport_logo {
     padding-block-end: 150px; } }
 
+@font-face {
+  font-family: "myLato";
+  font-style: normal;
+  font-weight: 700;
+  src: local("lato bold"), local("lato-bold");
+  src: url(/webroot/fonts/AnyConv.com__Lato-Bold.woff2), url(/webroot/fonts/AnyConv.com__Lato-Bold.woff); }
+
+@font-face {
+  font-family: "myLato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("lato regular"), local("lato-regular");
+  src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2), url(/webroot/fonts/AnyConv.com__Lato-Regular.woff); }
+
 @media (min-width: 368px) {
   .info__title--before {
-    font-family: "Lato";
+    font-family: "myLato";
     font-weight: 700;
-    font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: 0.03em;
     color: #333333;
     text-align: start; }
   .info__title--demand {
-    font-family: "Lato", sans-serif;
+    font-family: "myLato", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;

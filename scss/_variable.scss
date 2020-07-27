@@ -1,4 +1,5 @@
 $body-header-colour: #F4F6F9;
-$headings-colour: #333333;
-$paragraphs-colour: #4F4F4F;
-$body-container-colour: #FFFFFF;
+
+body {
+  background-color: $body-header-colour;
+}

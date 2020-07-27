@@ -12,6 +12,13 @@
   src: local("lato regular"), local("lato-regular");
   src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2), url(/webroot/fonts/AnyConv.com__Lato-Regular.woff); }
 
+body {
+  margin: 0;
+  background-color: #F4F6F9; }
+
+body > div {
+  max-width: 1114px; }
+
 h1 {
   margin-inline-start: auto;
   margin-inline-end: auto; }
@@ -22,13 +29,6 @@ ul > li {
 
 img {
   max-width: 100%; }
-
-div {
-  max-width: 550px; }
-
-body {
-  margin: 0;
-  background-color: #F4F6F9; }
 
 @media (min-width: 368px) {
   .sport_logo {

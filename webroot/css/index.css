@@ -16,9 +16,6 @@ body {
   margin: 0;
   background-color: #F4F6F9; }
 
-body > div {
-  max-width: 1114px; }
-
 h1 {
   margin-inline-start: auto;
   margin-inline-end: auto; }
@@ -113,3 +110,7 @@ img {
     justify-content: flex-start;
     gap: 1rem;
     padding-inline-start: 0; } }
+
+.container {
+  max-width: 1114px;
+  margin: 0; }

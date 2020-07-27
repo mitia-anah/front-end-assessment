@@ -1,0 +1,8 @@
+@import "variable";
+@media (min-width: 800px) {
+  .container {
+    max-width: $max-width-container;
+    margin: 0;
+  }
+}
+

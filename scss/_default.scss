@@ -7,13 +7,17 @@ body {
   background-color: $body-header-colour;
 }
 
+header {
+  padding-block-end: 100px;
+}
 
 ul > li {
   list-style: none;
   padding-inline-start: 0;
 }
 
-// img {
-//   max-width: 100%;
-// }
+img {
+  max-width: 100%;
+
+}
 

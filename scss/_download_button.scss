@@ -1,14 +1,11 @@
 @import "./variable";
 @media (min-width: 368px) {
 
-.buttons {
-  margin-block-start: 50px;
-}
 .button {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
-  padding-inline-start: 0;
+  gap: 3rem;
+  justify-content: flex-start;
   }
 }
 

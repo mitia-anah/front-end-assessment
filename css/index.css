@@ -2,23 +2,24 @@
   font-family: "myLato";
   font-style: normal;
   font-weight: 700;
-  src: local("lato bold"), local("lato-bold");
-  src: url(/webroot/fonts/AnyConv.com__Lato-Bold.woff2), url(/webroot/fonts/AnyConv.com__Lato-Bold.woff); }
+  src: local("Lato bold"), local("Lato-bold");
+  src: url(/webroot/fonts/AnyConv.com__Lato-Bold.woff2) format(woff2), url(/webroot/fonts/AnyConv.com__Lato-Bold.woff) format(woff); }
 
 @font-face {
   font-family: "myLato";
   font-style: normal;
   font-weight: 400;
-  src: local("lato regular"), local("lato-regular");
-  src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2), url(/webroot/fonts/AnyConv.com__Lato-Regular.woff); }
+  src: local("Lato regular"), local("Lato-regular");
+  src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2) format(woff2), url(/webroot/fonts/) format(woff); }
 
 body {
+  font-family: "myLato", Arial, Helvetica, sans-serif;
+  font-size: 16px;
   margin: 0;
   background-color: #F4F6F9; }
 
-h1 {
-  margin-inline-start: auto;
-  margin-inline-end: auto; }
+header {
+  padding-block-end: 100px; }
 
 ul > li {
   list-style: none;
@@ -27,81 +28,75 @@ ul > li {
 img {
   max-width: 100%; }
 
-@media (min-width: 368px) {
-  .sport_logo {
-    padding-block-start: 30px;
-    padding-block-end: 60px; } }
-
-@media (min-width: 740px) {
-  body {
-    background-image: url("../img/bg_header-1.png");
-    background-repeat: no-repeat;
-    display: block;
-    background-position: 100% 0%; }
-  .sport_logo {
-    padding-block-end: 150px; } }
-
 @font-face {
   font-family: "myLato";
   font-style: normal;
   font-weight: 700;
-  src: local("lato bold"), local("lato-bold");
-  src: url(/webroot/fonts/AnyConv.com__Lato-Bold.woff2), url(/webroot/fonts/AnyConv.com__Lato-Bold.woff); }
+  src: local("Lato bold"), local("Lato-bold");
+  src: url(/webroot/fonts/AnyConv.com__Lato-Bold.woff2) format(woff2), url(/webroot/fonts/AnyConv.com__Lato-Bold.woff) format(woff); }
 
 @font-face {
   font-family: "myLato";
   font-style: normal;
   font-weight: 400;
-  src: local("lato regular"), local("lato-regular");
-  src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2), url(/webroot/fonts/AnyConv.com__Lato-Regular.woff); }
+  src: local("Lato regular"), local("Lato-regular");
+  src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2) format(woff2), url(/webroot/fonts/) format(woff); }
 
 @media (min-width: 368px) {
-  .info__title--before {
-    font-family: "myLato";
+  .container_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center center;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
+  .information_title {
+    font-family: "Lato";
     font-weight: 700;
-    font-size: 36px;
     line-height: 48px;
-    letter-spacing: 0.03em;
     color: #333333;
-    text-align: start; }
-  .info__title--demand {
-    font-family: "myLato", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    color: #4F4F4f;
+    text-align: start;
+    font-size: 30px;
     text-align: center;
-    padding-inline-end: 3rem; } }
+    padding-block-end: 30px; }
+  .information_paragraph {
+    font-family: "Lato";
+    font-weight: 400;
+    line-height: 33px;
+    font-size: 20px;
+    color: #4F4F4f;
+    text-align: center; } }
 
-@media (min-width: 780px) {
-  .info__title--before,
-  .info__title--demand {
-    max-width: 40%;
-    padding-inline-start: 0; }
-  .info__title--before {
+@media (min-width: 800px) {
+  .container_1 {
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 100% 100%;
+    width: 100vw; }
+  .information_title,
+  .information_paragraph {
+    width: 550px; }
+  .information_title {
     font-family: "Lato";
     font-weight: 700;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    letter-spacing: 0.03em;
     color: #333333; }
-  .info__title--demand {
-    font-family: "Lato", sans-serif;
+  .information_paragraph {
+    font-family: "Lato";
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;
-    color: #4F4F4f;
-    text-align: center; } }
+    color: #4F4F4f; } }
 
 @media (min-width: 368px) {
-  .buttons {
-    margin-block-start: 50px; }
   .button {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-    padding-inline-start: 0; } }
+    gap: 3rem;
+    justify-content: flex-start; } }
 
 @media (min-width: 780px) {
   .button {
@@ -111,6 +106,7 @@ img {
     gap: 1rem;
     padding-inline-start: 0; } }
 
-.container {
-  max-width: 1114px;
-  margin: 0; }
+@media (min-width: 800px) {
+  .container {
+    max-width: 1114px;
+    margin: 0; } }

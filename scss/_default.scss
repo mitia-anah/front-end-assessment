@@ -1,10 +1,11 @@
 @import "variable";
 
 body {
+  font-family: "myLato", Arial, Helvetica, sans-serif;
+  font-size: 16px;
   margin: 0;
   background-color: $body-header-colour;
 }
-
 
 
 ul > li {

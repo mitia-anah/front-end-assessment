@@ -1,8 +1,11 @@
 @import "variable";
 @media (min-width: 800px) {
-  .container {
+  .container_first {
     max-width: $max-width-container;
     margin: 0;
+  }
+
+  .container_second {
   }
 }
 

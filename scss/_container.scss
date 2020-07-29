@@ -1,12 +1,16 @@
 @import "fonts";
 @media (min-width: 368px) {
-  .container {
+  .container_first,
+  .container_second {
     display: flex;
     flex-direction: column;
     justify-content: center;
     place-items: center center;
     margin-inline-start: auto;
     margin-inline-end: auto;
+  }
+  .container_second {
+
   }
 
   .container_title {
@@ -15,9 +19,8 @@
     line-height: 48px;
     color: #333333;
     text-align: start;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    padding-block-end: 30px;
   }
 
   .container_paragraph {

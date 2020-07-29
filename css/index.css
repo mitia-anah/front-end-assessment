@@ -40,7 +40,8 @@ ul > li {
   src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2) format(woff2), url(/webroot/fonts/) format(woff); }
 
 @media (min-width: 368px) {
-  .container {
+  .container_first,
+  .container_second {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,9 +54,8 @@ ul > li {
     line-height: 48px;
     color: #333333;
     text-align: start;
-    font-size: 30px;
-    text-align: center;
-    padding-block-end: 30px; }
+    font-size: 40px;
+    text-align: center; }
   .container_paragraph {
     font-family: "Lato";
     font-weight: 400;
@@ -98,7 +98,7 @@ ul > li {
     gap: 3rem;
     justify-content: flex-start; } }
 
-@media (min-width: 780px) {
+@media (min-width: 800px) {
   .button {
     display: flex;
     flex-direction: row;
@@ -108,6 +108,6 @@ ul > li {
     padding-block-start: 20px; } }
 
 @media (min-width: 800px) {
-  .container {
+  .container_first {
     max-width: 550px;
     margin: 0; } }

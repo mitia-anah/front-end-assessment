@@ -25,9 +25,6 @@ ul > li {
   list-style: none;
   padding-inline-start: 0; }
 
-img {
-  max-width: 100%; }
-
 @font-face {
   font-family: "myLato";
   font-style: normal;
@@ -43,14 +40,14 @@ img {
   src: url(/webroot/fonts/AnyConv.com__Lato-Regular.woff2) format(woff2), url(/webroot/fonts/) format(woff); }
 
 @media (min-width: 368px) {
-  .container_1 {
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     place-items: center center;
     margin-inline-start: auto;
     margin-inline-end: auto; }
-  .information_title {
+  .container_title {
     font-family: "Lato";
     font-weight: 700;
     line-height: 48px;
@@ -59,7 +56,7 @@ img {
     font-size: 30px;
     text-align: center;
     padding-block-end: 30px; }
-  .information_paragraph {
+  .container_paragraph {
     font-family: "Lato";
     font-weight: 400;
     line-height: 33px;
@@ -71,20 +68,23 @@ img {
   .container_1 {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 100% 100%;
-    width: 100vw; }
-  .information_title,
-  .information_paragraph {
-    width: 550px; }
-  .information_title {
+    background-size: 55%;
+    background-position: 115% 90%;
+    width: 100vw;
+    height: 40vw; }
+  .container_title,
+  .container_paragraph {
+    width: 550px;
+    text-align: start;
+    padding-inline-start: 210px; }
+  .container_title {
     font-family: "Lato";
     font-weight: 700;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
     color: #333333; }
-  .information_paragraph {
+  .container_paragraph {
     font-family: "Lato";
     font-weight: 400;
     font-size: 20px;
@@ -104,9 +104,10 @@ img {
     flex-direction: row;
     justify-content: flex-start;
     gap: 1rem;
-    padding-inline-start: 0; } }
+    padding-inline-start: 0;
+    padding-block-start: 20px; } }
 
 @media (min-width: 800px) {
   .container {
-    max-width: 1114px;
+    max-width: 550px;
     margin: 0; } }

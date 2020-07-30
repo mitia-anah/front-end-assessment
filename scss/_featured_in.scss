@@ -1,6 +1,6 @@
 
 @media (min-width: 368px) {
-  .icon_sportsTv,
+.icon_sportsTv,
 .icon_sports,
 .icon_nbc,
 .icon_designer,
@@ -10,10 +10,6 @@
 }
 
 
-  .featured_in {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-  }
 
 .icon_sportsTv {
   grid-area: icon_sportsTv;
@@ -38,4 +34,5 @@
 .icon_skysport {
   grid: icon_skysport;
   background-image: url(../img/sky-sports.png);
+}
 }

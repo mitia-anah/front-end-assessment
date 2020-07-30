@@ -1,17 +1,28 @@
 @import "variable";
-.container_second,
-.container_third,
-.forth_container {
-  text-align: center;
-}
-@media (min-width: 800px) {
-  .container_first {
-    max-width: $max-width-container;
-    margin: 0;
+@media (min-width: 368px) {
+  .first-container,
+  .second_container,
+  .third_container,
+  .forth_container {
+    text-align: center;
   }
 
-  .container_second {
+  .container_2 {
+    background-color: #ffffff;
+    background-image: url(../img/Clay-Mockup.png);
+    background-repeat: no-repeat;
+    height: 123vh;
+    background-position: 100px 500px;
   }
 }
+
+  @media (min-width: 800px) {
+    .container_first {
+      max-width: $max-width-container;
+      margin: 0;
+    }
+
+}
+
 
 

@@ -124,19 +124,29 @@ ul > li {
   .icon_dn,
   .icon_skysport {
     background-repeat: no-repeat; }
-  .container_second,
-  .container_third,
-  .forth_container {
-    text-align: center; }
   .icon_sportsTv {
+    grid-area: icon_sportsTv;
     background-image: url(../img/sportsTv.png); }
   .icon_sports {
+    grid-area: icon_sports;
     background-image: url(../img/sports.png); }
   .icon_nbc {
+    grid-area: icon_nbc;
     background-image: url(../img/nbc-sports.png); }
   .icon_designer {
+    grid-area: icon_designer;
     background-image: url(../img/designer-technology.png); }
   .icon_dn {
+    grid-area: icon_dn;
     background-image: url(../img/designer-new.png); }
   .icon_skysport {
+    grid: icon_skysport;
     background-image: url(../img/sky-sports.png); } }
+
+.footer_icon {
+  display: flex;
+  flex-direction: row; }
+
+.button_list {
+  display: flex;
+  flex-direction: row; }

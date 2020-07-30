@@ -1,4 +1,9 @@
 @import "variable";
+.container_second,
+.container_third,
+.forth_container {
+  text-align: center;
+}
 @media (min-width: 800px) {
   .container_first {
     max-width: $max-width-container;
@@ -8,4 +13,5 @@
   .container_second {
   }
 }
+
 

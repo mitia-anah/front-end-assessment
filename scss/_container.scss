@@ -37,9 +37,9 @@
   .container_1 {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-size: 55%;
-    background-position: 115% 90%;
-    width: 100vw;
+    background-position: 100% 90%;
+    background-size: 60%;
+
     height: 40vw;
   }
 
@@ -47,7 +47,7 @@
   .container_paragraph {
     width: 550px;
     text-align: start;
-    padding-inline-start: 210px;
+    padding: 20px;
   }
 
   .container_title {

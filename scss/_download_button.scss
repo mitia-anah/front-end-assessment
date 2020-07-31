@@ -1,13 +1,12 @@
 @import "./variable";
-@media (min-width: 368px) {
+
 
 .button {
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-  justify-content: flex-start;
-  }
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
+
 
 @media (min-width: 800px) {
   .button {

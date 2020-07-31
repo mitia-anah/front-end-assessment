@@ -1,5 +1,5 @@
 
-@media (min-width: 368px) {
+
 .icon_sportsTv,
 .icon_sports,
 .icon_nbc,
@@ -9,7 +9,13 @@
   background-repeat: no-repeat;
 }
 
-
+.featured_in a {
+  display: none;
+}
+.featured_in li {
+  display: flex;
+  flex-direction: row;
+}
 
 .icon_sportsTv {
   grid-area: icon_sportsTv;
@@ -35,4 +41,9 @@
   grid: icon_skysport;
   background-image: url(../img/sky-sports.png);
 }
+
+@media (min-width: 800px) {
+  .featured_in li{
+
+ }
 }

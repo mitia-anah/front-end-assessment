@@ -6,3 +6,20 @@
   display: flex;
   flex-direction: row;
 }
+
+footer {
+  background-color: #00ADEE;;
+}
+
+h4 a,
+.footer_icon a {
+  display: none;
+}
+h4 img {
+  padding-inline-start: 50px;
+}
+
+.footer_container a{
+  text-decoration: none;
+  color: white;
+}

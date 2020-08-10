@@ -56,15 +56,19 @@ ul > li {
   background-color: #ffffff;
   background-image: url(../img/bg_friendly_user_interface.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position-x: 50%;
+  background-position-y: calc(100% + 652px);
   padding-block-end: 652px; }
 
 .second_container a {
   text-decoration: none;
   color: #00ADEE; }
 
-.forth_container--title {
-  font-family: "Lato"; }
+.fourth_container--title {
+  font-family: "Lato";
+  text-align: center;
+  font-size: 28px;
+  color: #333333; }
 
 @media (min-width: 800px) {
   .container_1 {
@@ -88,7 +92,15 @@ ul > li {
     font-weight: 400;
     font-size: 16px;
     line-height: 33px;
-    color: #4F4F4f; } }
+    color: #4F4F4f; }
+  .second_container {
+    max-width: 480px; }
+  .container_2 {
+    background-color: #ffffff;
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 480px);
+    padding-block-end: 0; } }
 
 .button {
   display: flex;
@@ -131,32 +143,22 @@ ul > li {
 .featured_in a {
   display: none; }
 
-.featured_in li {
-  display: flex;
-  flex-direction: row; }
-
 .icon_sportsTv {
-  grid-area: icon_sportsTv;
   background-image: url(../img/sportsTv.png); }
 
 .icon_sports {
-  grid-area: icon_sports;
   background-image: url(../img/sports.png); }
 
 .icon_nbc {
-  grid-area: icon_nbc;
   background-image: url(../img/nbc-sports.png); }
 
 .icon_designer {
-  grid-area: icon_designer;
   background-image: url(../img/designer-technology.png); }
 
 .icon_dn {
-  grid-area: icon_dn;
   background-image: url(../img/designer-new.png); }
 
 .icon_skysport {
-  grid: icon_skysport;
   background-image: url(../img/sky-sports.png); }
 
 .footer_icon {

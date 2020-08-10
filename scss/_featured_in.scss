@@ -1,5 +1,3 @@
-
-
 .icon_sportsTv,
 .icon_sports,
 .icon_nbc,
@@ -12,38 +10,27 @@
 .featured_in a {
   display: none;
 }
-.featured_in li {
-  display: flex;
-  flex-direction: row;
-}
 
 .icon_sportsTv {
-  grid-area: icon_sportsTv;
+
   background-image: url(../img/sportsTv.png);
 }
 .icon_sports {
-  grid-area: icon_sports;
   background-image: url(../img/sports.png);
 }
 .icon_nbc {
-  grid-area: icon_nbc;
   background-image: url(../img/nbc-sports.png);
 }
 .icon_designer {
-  grid-area: icon_designer;
   background-image: url(../img/designer-technology.png);
 }
 .icon_dn {
-  grid-area: icon_dn ;
   background-image: url(../img/designer-new.png);
 }
 .icon_skysport {
-  grid: icon_skysport;
   background-image: url(../img/sky-sports.png);
 }
 
 @media (min-width: 800px) {
-  .featured_in li{
 
- }
 }

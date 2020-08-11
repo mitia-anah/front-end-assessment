@@ -5,14 +5,39 @@
 .icon_dn,
 .icon_skysport {
   background-repeat: no-repeat;
+  min-height: 50px;
+  background-position: center;
 }
 
 .featured_in a {
-  display: none;
+  display: block;
+  visibility: hidden;
+}
+.second-row,
+.first-row {
+  display: flex;
+  gap: 10px;
+}
+.first-row li:first-child{
+  flex-basis: 50%;
+}
+.first-row li:nth-of-type(2) {
+  flex-basis: 50%;
+}
+.second-row li:nth-of-type(1){
+  flex-basis: 30%;
+}
+.featured_in li:nth-of-type(2){
+  flex-basis: 40%;
+}
+.featured_in li:nth-of-type(3){
+  flex-basis: 30%;
+}
+.third-row p {
+  flex-basis: 100%;
 }
 
 .icon_sportsTv {
-
   background-image: url(../img/sportsTv.png);
 }
 .icon_sports {
@@ -32,5 +57,19 @@
 }
 
 @media (min-width: 800px) {
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-row li:first-child,
+.first-row li:nth-of-type(2),
+.second-row li:nth-of-type(1),
+.featured_in li:nth-of-type(2),
+.featured_in li:nth-of-type(3),
+.third-row p {
+  padding: 50px;
+}
 
 }

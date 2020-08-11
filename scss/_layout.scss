@@ -1,5 +1,4 @@
 .container_1,
-.container_3,
 .container_4 {
   background-color: $body-header-colour;
 }
@@ -11,12 +10,16 @@
     text-align: center;
   }
 
-  @media (min-width: 800px) {
-    .first_container{
-      max-width: $max-width-container;
-      margin: 0;
-    }
-
+@media (min-width: 800px) {
+  .first_container{
+    max-width: $max-width-container;
+    margin: 0;
+  }
+  .first_container,
+  .second_container,
+  .forth_container {
+    text-align: start;
+  }
 }
 
 
